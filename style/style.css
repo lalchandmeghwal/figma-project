@@ -322,6 +322,180 @@ input {
 
 
 
+/* Top career options in Digital Marketing */
+
+
+.career {
+    max-width: 1170px;
+    margin: 4rem auto;
+
+}
+
+.career h2 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.career>p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.career .container {
+    display: grid;
+    margin: 2rem 0;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.career .content {
+    box-shadow: 0px 4px 20px -2px #002F5814;
+    border: 1px solid #F2F4F7;
+    padding: 10px;
+
+}
+
+.career .content figure {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career .content h4 {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    margin: 10px 0;
+}
+
+.career .content p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+
+/* Get Certified */
+
+.certificate {
+    background: #F7FAFF;
+    padding: 40px;
+}
+
+.certificate .certificateMid {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.certificate .certificateMid h2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 1rem 0;
+}
+
+.certificate .left {
+    max-width: 570px;
+}
+
+.certificate .left>p {
+
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+
+    margin-bottom: 1rem;
+
+}
+
+.certificate .certificateMid .right img {
+
+    max-width: 436px;
+
+}
+
+.certificate .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.certificate .container figure {
+    background: #E9F5FF;
+
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+.certificate .container figure i {
+    color: #2699FB;
+}
+
+.certificate .container .text {
+    background: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px -2px #002F5814;
+}
+
+.certificate .certificateMid .btn {
+    text-align: start;
+    margin-top: 1.5rem;
+}
+
+.certificate .container .text h4 {
+
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.certificate .container .text p {
+  
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+
+
 
 /* Digital Marketing */
 
@@ -772,7 +946,7 @@ footer hr {
 }
 
 
-footer u{
+footer u {
     color: #FFFFFF;
     text-decoration: underline;
 }

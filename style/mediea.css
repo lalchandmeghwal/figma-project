@@ -13,6 +13,11 @@
     }
 }
 
+@media (width < 1250px) {
+    .career .container {
+        padding: 20px;
+    }
+}
 
 @media (width < 1140px) {
 
@@ -63,6 +68,15 @@
         font-size: 20px;
         margin-top: 10px;
     }
+
+    .certificate .certificateMid {
+        flex-direction: column;
+    }
+
+        .certificate .certificateMid img{
+           width:800px;
+            padding: 20px;
+        }
 }
 
 
@@ -192,6 +206,11 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
+
+    .career .container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 }
 
 @media (width < 650px) {
@@ -295,4 +314,19 @@
         letter-spacing: 0%;
         margin-top: 1rem;
     }
+
+    .career .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+    .career h2 {
+        font-size: 35px;
+    }
+
+        .certificate .certificateMid img {
+            width: 300px;
+            padding: 20px;
+        }
 }
