@@ -9,6 +9,7 @@
         left: 10%;
         z-index: 1000;
         padding: 10px;
+        display: none;
 
     }
 }
@@ -335,8 +336,8 @@
     }
 
 
-header .buttonContainer{
-    display: none important;
-   
-}
+    header .buttonContainer {
+        display: none important;
+
+    }
 }
