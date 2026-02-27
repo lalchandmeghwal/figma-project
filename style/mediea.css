@@ -333,4 +333,10 @@
     .heroSection .buttons button {
         font-size: 14px;
     }
+
+
+header .buttonContainer{
+    display: none important;
+   
+}
 }
