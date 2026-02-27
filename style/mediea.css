@@ -73,10 +73,10 @@
         flex-direction: column;
     }
 
-        .certificate .certificateMid img{
-           width:800px;
-            padding: 20px;
-        }
+    .certificate .certificateMid img {
+        width: 800px;
+        padding: 20px;
+    }
 }
 
 
@@ -325,8 +325,12 @@
         font-size: 35px;
     }
 
-        .certificate .certificateMid img {
-            width: 300px;
-            padding: 20px;
-        }
+    .certificate .certificateMid img {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .heroSection .buttons button {
+        font-size: 14px;
+    }
 }
